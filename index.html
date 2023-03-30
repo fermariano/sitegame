@@ -10,6 +10,7 @@
     
 
 </head>
+
 <body>
     <header>
         <div class="logo"><image class="icon" src="images/logo.png"></image></div>
@@ -29,7 +30,7 @@
             <p class="cash">24/7 Customer Service 1800 00 11 22 </p>
                 </div>
 
-                <div class="login">
+                <menu id="items">
                     <p>
                         <ul class="menu">
                             <li>Sign in</li>
@@ -39,13 +40,18 @@
                         </ul>
                     </p>
             
-                </div>
+                </menu>
 
                 <div id="cart"> 
                 
                     <img class="imagecart" src="images/shopping-cart.png" alt="shopping cart"> <p class="imagetext">MY CART</p> 
                 </div>
-        
+
+                <div class="menuburger" onclick="openMenu()"> 
+                
+                    <img  id="imagemenu" src="images/menu-burger.png" alt="menu burger">
+                
+            </div>
                 
         
     </header>
@@ -306,12 +312,10 @@
 
             </div>
         </footer>
-
-    
-    
-
-
-
-   
+        <script>
+            function openMenu() {
+                items.style.display = 'block'
+            }
+        </script>
 </body>
 </html>
