@@ -453,7 +453,7 @@ li:hover {
     
     
     .container-fluid1 {
-        display: none;
+        display: block;
         grid-gap: 10px;
         grid-template-columns: repeat(4, auto);
         background-color: #3F0071;
@@ -468,8 +468,7 @@ li:hover {
     }
     
     .pay {
-        grid-column: 1; 
-        grid-row: 1;
+        
         background-color: #8F43EE;
         display: inline;
         text-align: center;
@@ -477,8 +476,7 @@ li:hover {
     }
     
     .quick {
-        grid-column: 2;
-        grid-row: 1;
+        display: none;
         background-color: #8F43EE;
         color: white;
         text-align: center;
@@ -487,8 +485,7 @@ li:hover {
     }
     
     .social {
-        grid-column: 3;
-        grid-row: 1;
+        
         background-color: #8F43EE;
         color: azure;
         font-family: Arial, Helvetica, sans-serif;
@@ -496,13 +493,16 @@ li:hover {
     }
     
     .contact {
-        grid-column: 4;
-        grid-row: 1;
+        padding-bottom: 10px;
         background-color: #8F43EE;
         color: azure;
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
         border-radius: 7px;
+    }
+
+    .contact h4 {
+        padding-top: 10px;
     }
     
     .social {
@@ -674,12 +674,12 @@ li:hover {
     }
     
     .mostreview {
-        display: none;
+        display: inline-block;
         background-color: #37306B;
         padding: 10px;
         margin: 1%;
         border-radius: 10px;
-        
+        width: 90%;
     }
     
     .mostreviewtitle {
@@ -726,9 +726,9 @@ li:hover {
     }
     
     #mostreviewimage {
-        
+        margin-top: 5px;
         border-radius: 7px;
-        border-radius: 10px;
+        
     }
 
     
