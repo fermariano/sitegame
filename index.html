@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Game Store</title>
     <link rel="stylesheet" href="style.css">
-    
+    <script src="script.js"></script>
     
 
 </head>
@@ -68,28 +68,8 @@
             <p class="quickfindtext">Ache o produto ideal!</p>
             <p class="selector">
                 
-                <select name="quickfindtipo" class="quickfindtipo">
-                    <option value="zero" selected>Tipo</option>
-                    <option value="two">Opção 1</option>
-                    <option value="three">Opção 2</option>
-                    <option value="three">Opção 3</option>
-                </select>
-            
-            
-                <select name="quickfindcat" class="quickfindcat">
-                    <option value="zero" selected>Categoria</option>
-                    <option value="two">Opção 1</option>
-                    <option value="three">Opção 2</option>
-                    <option value="three">Opção 3</option>
-                </select>
-            
-            
-                <select name="quickfindmarca" class="quickfindmarca">
-                    <option value="zero" selected>Marca</option>
-                    <option value="two">Opção 1</option>
-                    <option value="three">Opção 2</option>
-                    <option value="three">Opção 3</option>
-                </select>
+              <input placeholder="Digite a palavra chave" type="text" name="search" id="pesquisa" class="quickfindtipo">
+              <button value="shirt" onclick="pressSearch()" id="enviarSearch">Pesquisar</button>
             
             </p>
         </div>
@@ -97,77 +77,7 @@
 
         <div id="cardprincipal">
 
-            <div class="subcard">
-                <img id="subcardjogo"  src="images/omori.png">
-                <p class="subcardtitle">OMORI</p>
-                <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png">
-                <p class="subcardprice">R$ 37.99 </p>
-                <button class="subcardbotao">Compre agora</button>
-            </div>
-
-            <div class="subcard">
-                <img id="subcardjogo" src="images/spiritfarer.png">
-                <p class="subcardtitle">Spirit Farer</p>
-                <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/unstar.png"> <img id="subcardstar" src="images/unstar.png">
-                <p class="subcardprice">R$ 88.99 </p>
-                <button class="subcardbotao">Compre agora</button>
-            </div>
-
-            <div class="subcard">
-                <img id="subcardjogo" src="images/stardew.png">
-                <p class="subcardtitle">Stardew Valley</p>
-                <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/unstar.png">
-                <p class="subcardprice">R$ 24.99 </p>
-                <button class="subcardbotao">Compre agora</button>
-            </div>
-
-            <div class="subcard">
-                <img id="subcardjogo" src="images/spiderman.png">
-                <p class="subcardtitle">Marvel's Spider-Man: Miles Morales</p>
-                <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png">
-                <p class="subcardprice">R$ 133.90 </p>
-                <button class="subcardbotao">Compre agora</button>
-            </div>
-
-            <div class="subcard">
-                <img id="subcardjogo" src="images/thelast.png">
-                <p class="subcardtitle">The Last of Us - Episódio 1</p>
-                <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png">
-                <p class="subcardprice">R$ 249.90 </p>
-                <button class="subcardbotao">Compre agora</button>
-            </div>
-
-            <div class="subcard">
-                <img id="subcardjogo" src="images/gris.png">
-                <p class="subcardtitle">Gris</p>
-                <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/unstar.png">
-                <p class="subcardprice">R$ 32.99 </p>
-                <button class="subcardbotao">Compre agora</button>
-            </div>
-
-            <div class="subcard">
-                <img id="subcardjogo" src="images/enigmadomedo.png">
-                <p class="subcardtitle">Enigma do Medo</p>
-                <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png">
-                <p class="subcardprice">R$ 49.99 </p>
-                <button class="subcardbotao">Compre agora</button>
-            </div>
-
-            <div class="subcard">
-                <img id="subcardjogo" src="images/gorogoa.png">
-                <p class="subcardtitle">Gorogoa</p>
-                <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png">
-                <p class="subcardprice">R$ 39.99 </p>
-                <button class="subcardbotao">Compre agora</button>
-            </div>
-
-            <div class="subcard">
-                <img id="subcardjogo" src="images/hollow.png">
-                <p class="subcardtitle">Hollow Knight</p>
-                <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png"> <img id="subcardstar" src="images/star.png">
-                <p class="subcardprice">R$ 46.99 </p>
-                <button class="subcardbotao">Compre agora</button>
-            </div>
+            
 
         </div>
 

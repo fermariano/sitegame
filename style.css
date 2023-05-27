@@ -234,8 +234,21 @@ li:hover {
     margin: 5px;
     width: 15%;
     height: auto;
-    font-size: 15px;
+    font-size: 18px;
     border-radius: 5px;
+}
+
+#enviarSearch {
+    height: 10%;
+    background-color:#8F43EE;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: Roboto Mono;
+}
+
+#enviarSearch:hover {
+    background-color: #a46fe6;
 }
 
 .quickfindcat {
@@ -257,7 +270,7 @@ li:hover {
     padding: 10px;
     text-align: center;
     background-color: #4E31AA;
-    margin: 1%;
+    margin: 10px;
     width: 30%;
     height: 95%;
     border-radius: 10px;
@@ -265,7 +278,7 @@ li:hover {
 
 #subcardjogo {
     height: 40%;
-    width: 60%;
+    width: 50%;
     border-radius: 7px;
     box-shadow: 5px 5px #3a107875;
 }
@@ -615,9 +628,10 @@ li:hover {
         margin: 5px;
         width: 25%;
         height: auto;
-        font-size: 15px;
+        font-size: 18px;
         border-radius: 5px;
     }
+
     
     .quickfindcat {
         width: 25%;
